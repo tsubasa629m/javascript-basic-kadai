@@ -19,9 +19,9 @@ const holidays = [
 ];
 
 // For文
-holidays.forEach(function(holidays) {
-  console.log(holidays);
-});
+for (let i = 0; i < holidays.length; i++) {
+  console.log(holidays[i]);
+} 
 
 // 祝日名の配列
 const holiday = [
